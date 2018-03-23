@@ -1,0 +1,32 @@
+.landingBody {
+    width: 100%;
+    height: auto;
+    min-height: 568px;
+    font-family: 'Indie Flower', cursive;
+    .landingSection {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://i.imgur.com/RaNxpH7.jpg) no-repeat center center fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        .name {
+            font-size: 75px;
+            margin-bottom: 20px;
+        }
+        .mini-description {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        .social-bar a {
+              padding: 3px 20px;
+              font-size: 75px;
+              color: white;
+              cursor: pointer;
+          }
+        }
+
+}
