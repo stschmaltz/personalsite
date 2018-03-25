@@ -12,7 +12,7 @@ class App extends Component {
                 <a href="http://localhost:3000/" className="header-nav-container__home">Home</a>
                 <a href="http://localhost:3000/" className="header-nav-container__about">About</a>
                 <a href="http://localhost:3000/" className="header-nav-container__resume">Resume</a>
-                <a href="http://localhost:3000/" className="header-nav-container__contact">Contact Me</a>
+                <a href="http://localhost:3000/" className="header-nav-container__contact">Contact</a>
               </div>
             </nav>
           </div>
