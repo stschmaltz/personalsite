@@ -10,9 +10,9 @@ class App extends Component {
             <nav className="header-nav-bar">
               <div className="header-nav-container-inner">
                 <a href="http://localhost:3000/" className="header-nav-container__home">Home</a>
-                <a href="http://localhost:3000/" className="header-nav-container__about">About</a>
-                <a href="http://localhost:3000/" className="header-nav-container__resume">Resume</a>
-                <a href="http://localhost:3000/" className="header-nav-container__contact">Contact</a>
+                <a href="http://localhost:3000/about/" className="header-nav-container__about">About</a>
+                <a href="https://drive.google.com/file/d/1mxnGYPUwBvPViMQqXjc1Lmie7QAW_5PD/view?usp=sharing" className="header-nav-container__resume">Resume</a>
+                <a href="http://localhost:3000/contact/" className="header-nav-container__contact">Contact</a>
               </div>
             </nav>
           </div>
