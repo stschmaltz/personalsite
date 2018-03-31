@@ -1,0 +1,30 @@
+.landing-header {
+  z-index: 100;
+  background: transparent;
+  position: fixed;
+  width: 100%; }
+
+.header-nav-container-inner {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .header-nav-container-inner a {
+    font-family: 'Oregano';
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 2%;
+    font-size: 30px;
+    color: white; }
+
+.header-nav-container__contact {
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid #FFFFFF;
+  font-family: 'Oregano';
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0 2%;
+  font-size: 30px;
+  color: white; }
