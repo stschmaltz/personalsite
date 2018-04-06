@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import App from '../App.js';
 import NotFound from './NotFound.js'
 import AboutPage from './AboutPage.js'
 import ContactPage from './ContactPage.js'
