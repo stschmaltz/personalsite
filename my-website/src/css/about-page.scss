@@ -1,0 +1,46 @@
+
+.about {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 80%;
+  height: 60vh;
+  min-height: 564px;
+  border-radius: 25px;
+  font-family: $primaryFont;
+}
+
+
+.about-2 {
+  min-width: 15%;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-3 {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px 20px 20px;
+}
+
+
+.about-pic__img {
+  border-radius: 100%;
+  height: auto;
+  width: auto;
+  max-width: 100px;
+  max-height: 100px;
+
+}
+.about-title__title {
+  font-size: 25px;
+}

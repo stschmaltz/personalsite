@@ -1,37 +1,33 @@
 .home {
   position: relative;
   min-height: 564px;
+  height: auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .home__name {
   color: white;
   font-size: 100px;
   margin-bottom: 20px;
-  font-family: 'Oregano';
-}
+  font-family: 'Oregano'; }
 
 .home__mini-description {
   color: white;
   font-size: 50px;
   margin-bottom: 20px;
-  font-family: 'Oregano';
-}
+  font-family: 'Oregano'; }
 
 .social-bar__linkedin {
   padding: 3px 20px;
   font-size: 45px;
   color: white;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .social-bar__github {
   margin: 3px 20px;
   font-size: 45px;
   color: white;
-  cursor: pointer;
-}
+  cursor: pointer; }

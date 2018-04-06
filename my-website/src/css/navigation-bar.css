@@ -1,7 +1,7 @@
 .landing-header {
   z-index: 100;
-  background: transparent;
-  position: fixed;
+  overflow: hidden;
+  position: relative;
   width: 100%; }
 
 .header-nav-container-inner {
