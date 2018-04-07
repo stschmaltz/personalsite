@@ -1,10 +1,11 @@
+@import "variables";
+
 .contact {
-  position: relative;
+  position: static;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: $primaryFont;
-  min-height: 564px;
-  color: white;
+  color: $primaryColor;
 }

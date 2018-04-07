@@ -1,6 +1,8 @@
+@import "variables";
+
 .landing-header {
     overflow: hidden;
-    position: relative;
+    position: static;
     width: 100%;
   }
 
@@ -15,8 +17,8 @@
       text-decoration: none;
       cursor: pointer;
       margin: 0 2%;
-      font-size: 30px;
-      color: white;
+      font-size: 5rem;
+      color: $primaryColor;
     }
   }
 
@@ -29,5 +31,5 @@
     cursor: pointer;
     margin: 0 2%;
     font-size: 30px;
-    color: white;
+    color: $primaryColor;
 }

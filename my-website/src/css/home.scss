@@ -1,38 +1,40 @@
+@import "variables";
+
 .home {
-  position: relative;
-  min-height: 564px;
+  position: static;
+  min-height: 56rem;
   height: auto;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
 .home__name {
-  color: white;
-  font-size: 100px;
-  margin-bottom: 20px;
-  font-family: 'Oregano';
+  color: $primaryColor;
+  font-size: 11rem;
+  margin-bottom: 3rem;
+  font-family: $primaryFont;
 }
 
+
 .home__mini-description {
-  color: white;
-  font-size: 50px;
-  margin-bottom: 20px;
-  font-family: 'Oregano';
+  color: $primaryColor;
+  font-size: 6rem;
+  margin-bottom: 5rem;
+  font-family: $secondaryFont;
 }
 
 .social-bar__linkedin {
-  padding: 3px 20px;
-  font-size: 45px;
-  color: white;
+  padding: 0.3rem 2rem;
+  font-size: 6rem;
+  color: $primaryColor;
   cursor: pointer;
 }
 
 .social-bar__github {
-  margin: 3px 20px;
-  font-size: 45px;
-  color: white;
+  margin: 0.3rem 2rem;
+  font-size: 6rem;
+  color: $primaryColor;
   cursor: pointer;
 }

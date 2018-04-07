@@ -1,9 +1,8 @@
 .contact {
-  position: relative;
+  position: static;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Oregano';
-  min-height: 564px;
-  color: white; }
+  font-family: "Oregano";
+  color: #ebebeb; }

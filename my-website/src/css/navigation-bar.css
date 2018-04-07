@@ -1,7 +1,6 @@
 .landing-header {
-  z-index: 100;
   overflow: hidden;
-  position: relative;
+  position: static;
   width: 100%; }
 
 .header-nav-container-inner {
@@ -11,20 +10,20 @@
   justify-content: center;
   align-items: center; }
   .header-nav-container-inner a {
-    font-family: 'Oregano';
+    font-family: "Oregano";
     text-decoration: none;
     cursor: pointer;
     margin: 0 2%;
-    font-size: 30px;
-    color: white; }
+    font-size: 5rem;
+    color: #ebebeb; }
 
 .header-nav-container__contact {
   border-radius: 5px;
   padding: 5px;
   border: 2px solid #FFFFFF;
-  font-family: 'Oregano';
+  font-family: "Oregano";
   text-decoration: none;
   cursor: pointer;
   margin: 0 2%;
   font-size: 30px;
-  color: white; }
+  color: #ebebeb; }

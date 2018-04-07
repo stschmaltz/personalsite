@@ -10,12 +10,13 @@ class AboutPage extends Component {
                <img src="https://i.imgur.com/81qyN1y.jpg" alt="" className="about-pic__img"/>
             </div>
             <div className="about-title">
-               <span className="about-title__title">Hey Im Shane! This is a little about me.</span>
+               <span className="about-title__intro">Hey Im Shane!</span>
+               <span className="about-title__desc"> This is a bit about me.</span>
             </div>
          </div>
          <div className="about-3">
             <div className="about-paragraph">
-               <span className="about-paragraph__first">Hi! My name is Shane Schmaltz and welcome to my website! I made this personal/portolio website from scratch using react. I am a software developer from Calgary AB, Canada and I really love software. It's fascinating to me how software has the power to change the world in an almost endless amount of ways. My fundamental passion in life is to create software that makes someone's life better or easier in some form or another. This keeps me very motivated to follow new trends and learn new technologies/techniques constantly and this website should serve as a place to showcase at least some of that.  Aside from software and making software, I spend most of my time divided between playing bass guitar, working out, longboarding, playing video games or going on some sort of adventure. Thanks again for saying hi and please feel free to contact me for any reason!</span>
+               <span className="about-paragraph__first">Hi my name is Shane Schmaltz. I’m a software developer from Calgary Alberta Canada. Welcome to my website! I made it myself using react. I have a lot of interests, however I’m most fascinated with software and its ability to change the world. I like to think of myself as a creative dreamer with an knack for problem solving. I also play bass guitar, love to go longboarding, enjoy weightlifting, playing video games and hugely value self improvement and well-being. Thanks for stopping by, please feel free to contact me using any of the links in my contact page.</span>
                <span className="about-paragraph__second"></span>
             </div>
          </div>
