@@ -8,15 +8,16 @@
   justify-content: center;
   align-items: center;
   width: 80%;
-  margin: 10rem auto 10rem auto;
+  min-height: 30rem;
+  margin:auto auto 10rem auto;
   padding: 10rem;
   border-radius: 2.5rem;
 }
 
 .about-2 {
   min-width: 20%;
-  font-family: $primaryFont;
-  color: $primaryColor;
+  font-family: $secondaryFont;
+  color: $primaryColorSoft;
   padding: 1rem 1rem 0rem 1rem;
   display: flex;
   flex-direction: column;
@@ -28,7 +29,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2.7rem;
 }
 
 .about-pic__img {
@@ -39,8 +40,8 @@
 
 .about-paragraph {
   font-family: $secondaryFont;
-  color: $primaryColor;
-  font-size: 3rem;
+  color: $primaryColorSoft;
+  font-size: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;

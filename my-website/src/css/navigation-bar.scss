@@ -7,8 +7,9 @@
   }
 
 .header-nav-container-inner {
-    margin: 50px auto;
+    margin: 5rem auto;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -16,20 +17,20 @@
       font-family: $primaryFont;
       text-decoration: none;
       cursor: pointer;
-      margin: 0 2%;
-      font-size: 5rem;
+      margin: 0 3rem 3rem 0;
+      font-size: 6rem;
       color: $primaryColor;
     }
   }
 
 .header-nav-container__contact {
-    border-radius: 5px;
-    padding: 5px;
-    border: 2px solid #FFFFFF;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: 0.2rem solid #FFFFFF;
     font-family: $primaryFont;
     text-decoration: none;
     cursor: pointer;
-    margin: 0 2%;
+    margin: 0 2rem;
     font-size: 30px;
     color: $primaryColor;
 }

@@ -1,6 +1,5 @@
 .home {
   position: static;
-  min-height: 56rem;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -17,7 +16,7 @@
   color: #ebebeb;
   font-size: 6rem;
   margin-bottom: 5rem;
-  font-family: "Patrick Hand"; }
+  font-family: "Libre Baskerville"; }
 
 .social-bar__linkedin {
   padding: 0.3rem 2rem;

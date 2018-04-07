@@ -11,7 +11,7 @@ class AboutPage extends Component {
             </div>
             <div className="about-title">
                <span className="about-title__intro">Hey Im Shane!</span>
-               <span className="about-title__desc"> This is a bit about me.</span>
+               <span className="about-title__desc">This is a bit about me.</span>
             </div>
          </div>
          <div className="about-3">
