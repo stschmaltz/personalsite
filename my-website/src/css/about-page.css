@@ -13,7 +13,7 @@
 
 .about-2 {
   min-width: 20%;
-  font-family: "Libre Baskerville";
+  font-family: "Oregano";
   color: #e1e1e1;
   padding: 1rem 1rem 0rem 1rem;
   display: flex;
@@ -25,7 +25,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 2.7rem; }
+  font-size: 4rem; }
 
 .about-pic__img {
   border-radius: 100%;
@@ -33,7 +33,7 @@
   max-height: 18rem; }
 
 .about-paragraph {
-  font-family: "Libre Baskerville";
+  font-family: "Delius";
   color: #e1e1e1;
   font-size: 2.5rem;
   display: flex;
