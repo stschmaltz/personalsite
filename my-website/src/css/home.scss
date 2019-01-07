@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables';
 
 .home {
   position: static;
@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
 }
 
 .home__name {
@@ -15,7 +16,6 @@
   margin-bottom: 3rem;
   font-family: $primaryFont;
 }
-
 
 .home__mini-description {
   color: $primaryColor;

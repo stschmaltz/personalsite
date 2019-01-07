@@ -1,6 +1,7 @@
-@import "variables";
+@import 'variables';
 
 .about {
+  max-width: 100rem;
   position: static;
   background-color: rgba(0, 0, 0, 0.4);
   display: flex;
@@ -9,7 +10,7 @@
   align-items: center;
   width: 80%;
   min-height: 30rem;
-  margin:auto auto 10rem auto;
+  margin: auto auto 10rem auto;
   padding: 10rem;
   border-radius: 2.5rem;
 }
@@ -25,7 +26,7 @@
   align-items: center;
 }
 
-.about-title{
+.about-title {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,17 +49,15 @@
   margin: 2rem 2rem 2rem 2rem;
 }
 
-
-
 @media (max-width: 768px) {
-   .about {
-     flex-wrap: wrap;
-     padding: 1rem;
-   }
-   .about-title{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     font-size: 5rem;
-   }
+  .about {
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  .about-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 5rem;
+  }
 }

@@ -1,4 +1,5 @@
 .contact-container {
+  max-width: 100rem;
   position: static;
   display: flex;
   flex-direction: row;
@@ -7,15 +8,15 @@
   flex-wrap: wrap;
   font-family: "Oregano";
   color: #ebebeb;
-  width: 80%;
+  width: 80vw;
   min-height: 30rem;
   margin: auto auto 10rem auto;
-  padding: 10rem;
+  padding: 3rem;
   border-radius: 2.5rem;
   background-color: rgba(0, 0, 0, 0.4); }
 
 .contact-title {
-  margin: auto 0 auto 0;
+  margin: auto 0;
   width: 30%;
   font-size: 5rem; }
 
@@ -26,6 +27,8 @@
   align-items: flex-start;
   justify-content: center;
   font-size: 3rem; }
-  .contact-body a {
+  .contact-body a svg {
     font-size: 4.5rem;
-    margin: 0.3em 0.3em 0.3em 0.3em; }
+    margin: 0.3rem; }
+  .contact-body span {
+    margin: 0.5rem; }
