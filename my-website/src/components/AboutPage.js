@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../css/styles.css';
 import selfImage from '../images/20181225_155058.jpg';
 
@@ -18,10 +18,10 @@ const AboutPage = () => (
         <span className="about-paragraph__first">
           Hi my name is Shane Schmaltz. I’m a software developer from Calgary
           Alberta Canada. Welcome to my website! It was the first site I made
-          with React.. I am currently re-writing it since I have learned tons
-          since I first created it and it no longer showcases my current
-          abilities as a Web Developer. Thanks for stopping by, please feel free
-          to contact me using the contact page.
+          with React.. and I am currently re-writing it. I have learned tons
+          since it's first creation and it no longer showcases my abilities as a
+          web developer. Thanks for stopping by, please feel free to contact me
+          using the contact page.
         </span>
         <span className="about-paragraph__second" />
       </div>

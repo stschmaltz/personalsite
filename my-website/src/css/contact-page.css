@@ -27,8 +27,12 @@
   align-items: flex-start;
   justify-content: center;
   font-size: 3rem; }
+  .contact-body a {
+    color: #ebebeb; }
   .contact-body a svg {
     font-size: 4.5rem;
     margin: 0.3rem; }
-  .contact-body span {
+  .contact-body a span {
+    margin: 0.5rem; }
+  .contact-body a span:hover {
     margin: 0.5rem; }
