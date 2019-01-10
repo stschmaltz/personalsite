@@ -1,6 +1,8 @@
 import React from 'react';
 import '../css/styles.css';
 import selfImage from '../images/20181225_155058.jpg';
+import withPageView from './withPageView';
+import { compose } from 'recompose';
 
 const AboutPage = () => (
   <div className="about">
@@ -29,4 +31,4 @@ const AboutPage = () => (
   </div>
 );
 
-export default AboutPage;
+export default compose(withPageView)(AboutPage);

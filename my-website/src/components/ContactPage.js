@@ -1,5 +1,7 @@
 import React from 'react';
 import '../css/styles.css';
+import withPageView from './withPageView';
+import { compose } from 'recompose';
 
 const ContactPage = () => (
   <>
@@ -50,4 +52,4 @@ const ContactPage = () => (
   </>
 );
 
-export default ContactPage;
+export default compose(withPageView)(ContactPage);

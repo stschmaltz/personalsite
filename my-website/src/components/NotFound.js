@@ -1,10 +1,12 @@
-import React from "react";
+import React from 'react';
+import withPageView from './withPageView';
+import { compose } from 'recompose';
 
 const NotFound = () => (
   <div>
-    <h2>404 My Friend</h2>
-    <h2>Page not found :(</h2>
+    <h1>404</h1>
+    <h1>Page not found</h1>
   </div>
 );
 
-export default NotFound;
+export default compose(withPageView)(NotFound);

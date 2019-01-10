@@ -1,5 +1,7 @@
 import React from 'react';
 import '../css/styles.css';
+import withPageView from './withPageView';
+import { compose } from 'recompose';
 
 const Home = () => (
   <div className="home">
@@ -19,4 +21,4 @@ const Home = () => (
   </div>
 );
 
-export default Home;
+export default compose(withPageView)(Home);
