@@ -1,6 +1,6 @@
 {
   "name": "personal-site",
-  "alias": "shaneschmaltz.com",
+  "alias": ["shaneschmaltz.com", "www.shaneschmaltz.com"],
   "version": 2,
   "builds": [
     {

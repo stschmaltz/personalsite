@@ -13,7 +13,7 @@ const NavigationBar = () => (
             About
           </a>
           <a
-            href="https://drive.google.com/file/d/1mxnGYPUwBvPViMQqXjc1Lmie7QAW_5PD/view?usp=sharing"
+            href="https://drive.google.com/file/d/1MUng-vyVMB_cJ85ME_bm_tQuygYK5BjW/view?usp=sharing"
             className="header-nav-container__resume"
           >
             Resume
