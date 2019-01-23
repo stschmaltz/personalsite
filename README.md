@@ -1,5 +1,5 @@
 # personalsite
-My personal website in react shaneschmaltz.com
+My personal website in react
 
 https://shaneschmaltz.com
 https://www.shaneschmaltz.com
